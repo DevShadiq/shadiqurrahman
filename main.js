@@ -56,6 +56,7 @@ function ageCheck() {
   document.getElementById('resultage').innerHTML = textout;
 }
 
+//Added for Enter button to submit
 var input = document.getElementById('numb');
 input.addEventListener('keypress', function (event) {
   if (event.key === 'Enter') {
