@@ -26,7 +26,12 @@ function ageCheck() {
     document
       .getElementById('resultage')
       .classList.remove('oldman', 'youngman', 'teenage', 'kids', 'notnum');
-  } else if (Number(age) <= 13 && Number(age) >= 0) {
+  } else if (document.getElementById('numb').value == 0) {
+    textout = 'You Etered zero';
+    document
+      .getElementById('resultage')
+      .classList.remove('oldman', 'youngman', 'teenage', 'kids', 'notnum');
+  } else if (Number(age) <= 13) {
     textout = 'You are a Kids';
     document.getElementById('resultage').classList.add('kids');
   } else if (Number(age) <= 19) {
@@ -34,7 +39,7 @@ function ageCheck() {
     document.getElementById('resultage').classList.add('teenage');
     document
       .getElementById('resultage')
-      .classList.remove('oldman', 'youngman', 'notnum');
+      .classList.remove('oldman', 'youngman', 'notnum', 'kids');
   } else if (Number(age) <= 60) {
     textout = 'You are a Young Man';
     document.getElementById('resultage').classList.add('youngman');

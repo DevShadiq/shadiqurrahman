@@ -60,3 +60,31 @@ body {
   font-size: 25px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.agecheckg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  border: 1px solid rgb(220, 135, 116);
+  background: rgb(241, 214, 214);
+}
+
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  font-size: 12px;
+  margin: 5px 1px 1px 1px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  top: 65.5%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
