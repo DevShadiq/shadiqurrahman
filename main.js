@@ -55,3 +55,11 @@ function ageCheck() {
   }
   document.getElementById('resultage').innerHTML = textout;
 }
+
+var input = document.getElementById('numb');
+input.addEventListener('keypress', function (event) {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    document.getElementById('btn').click();
+  }
+});
