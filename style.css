@@ -1,5 +1,62 @@
 /** @format */
 
+html,
 body {
-  background: none;
+  align-items: center;
+  background: #f2f4f8;
+  border: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  height: 100%;
+  justify-content: center;
+}
+
+.oldman {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.youngman {
+  color: green;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.teenage {
+  color: blue;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.kids {
+  color: yellowgreen;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.notnum {
+  color: black;
+  text-decoration: line-through;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head3 {
+  text-align: center;
+}
+
+.resultss {
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#resultage {
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

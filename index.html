@@ -6,19 +6,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Check Age</title>
+    <title>Check Age Groups</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello World Javascript Test for Chained Statement</h1>
-    <h3>Input a age for Show Age wise Man dd</h3>
-    <h4>Age under 12 Baby</h4>
-    <h4>Age under 19 Teen</h4>
-    <h4>Age under 50 Young Man</h4>
-    <h4>Age Over 50 Old Man</h4>
+    <h1>Check Age Groups</h1>
+    <h6>Age Under 13 Kids</h6>
+    <h6>Age Under 19 Teenager</h6>
+    <h6>Age Under 60 Youth</h6>
+    <h6 class="old">Age Over 60 Old Man</h5>
 
-    <strong> Enter Age : </strong><input type="text" />
-    <button type="submit">Check Age</button>
+    <strong> Enter Age : </strong><input id="numb" />
+    <button onclick="ageCheck()" type="submit">Check Age</button>
+
+    <p class="resultss">Results : <span id="resultage"></span>   </p>
+   
 
     <script src="main.js"></script>
   </body>
