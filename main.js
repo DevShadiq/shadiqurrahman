@@ -1,1 +1,3 @@
-main.js
+/** @format */
+
+console.log("Hello World");
