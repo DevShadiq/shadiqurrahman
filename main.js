@@ -27,13 +27,17 @@ function ageCheck() {
       .getElementById('resultage')
       .classList.remove('oldman', 'youngman', 'teenage', 'kids', 'notnum');
   } else if (document.getElementById('numb').value == 0) {
-    textout = 'You Etered zero';
+    textout = 'You Entered Zero';
     document
       .getElementById('resultage')
       .classList.remove('oldman', 'youngman', 'teenage', 'kids', 'notnum');
   } else if (Number(age) <= 13) {
     textout = 'You are a Kids';
     document.getElementById('resultage').classList.add('kids');
+
+    document
+      .getElementById('resultage')
+      .classList.remove('oldman', 'youngman', 'teenage', 'notnum');
   } else if (Number(age) <= 19) {
     textout = 'You are a Teenager';
     document.getElementById('resultage').classList.add('teenage');
